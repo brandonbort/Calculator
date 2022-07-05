@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../css/calculator.css" rel="stylesheet">
+        <script src="../js/calculator.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="3">
+                    <textarea id="resultField" disabled="true"></textarea>
+                </td>
+                <td>
+                    <button id="clearBtn" onclick="clearResult()">CLEAR</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="oneBtn" onclick="updateEquation(this)">1</button>
+                </td>
+                <td>
+                    <button id="twoBtn" onclick="updateEquation(this)">2</button>
+                </td>
+                <td>
+                    <button id="threeBtn" onclick="updateEquation(this)">3</button>
+                </td>
+                <td>
+                    <button id="plusBtn" onclick="updateEquation(this)">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="fourBtn" onclick="updateEquation(this)">4</button>
+                </td>
+                <td>
+                    <button id="fiveBtn" onclick="updateEquation(this)">5</button>
+                </td>
+                <td>
+                    <button id="sixBtn" onclick="updateEquation(this)">6</button>
+                </td>
+                <td>
+                    <button id="minusBtn" onclick="updateEquation(this)">-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="sevenBtn" onclick="updateEquation(this)">7</button>
+                </td>
+                <td>
+                    <button id="eightBtn" onclick="updateEquation(this)">8</button>
+                </td>
+                <td>
+                    <button id="nineBtn" onclick="updateEquation(this)">9</button>
+                </td>
+                <td>
+                    <button id="divideBtn" onclick="updateEquation(this)">/</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="dotBtn" onclick="updateEquation(this)">.</button>
+                </td>
+                <td>
+                    <button id="zeroBtn" onclick="updateEquation(this)">0</button>
+                </td>
+                <td>
+                    <button id="equalsBtn" onclick="updateResult()">=</button>
+                </td>
+                <td>
+                    <button id="mutiplyBtn" onclick="updateEquation(this)">*</button>
+                </td>
+            </tr>
+        
+        </table>
+    </body>
+
+</html>
